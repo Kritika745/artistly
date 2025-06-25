@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import { X } from "lucide-react"
+import { X, Filter } from "lucide-react"
 import artistsData from "@/data/artists.json"
 
 export function ArtistFilters() {
@@ -56,9 +56,12 @@ export function ArtistFilters() {
     <div className="card sticky top-24">
       <div className="p-6">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-lg font-semibold">Filters</h2>
+          <div className="flex items-center gap-2">
+            <Filter className="h-5 w-5 text-gray-600" />
+            <h2 className="text-lg font-semibold">Filters</h2>
+          </div>
           {hasActiveFilters && (
-            <button onClick={clearAllFilters} className="text-sm text-gray-500 hover:text-gray-700 flex items-center">
+            <button onClick={clearAllFilters} className="text-sm text-blue-600 hover:text-blue-800 flex items-center">
               <X className="h-4 w-4 mr-1" />
               Clear All
             </button>
@@ -85,8 +88,9 @@ export function ArtistFilters() {
                     }}
                     className="rounded border-gray-300"
                   />
-                  <label htmlFor={category.id} className="text-sm cursor-pointer">
-                    {category.icon} {category.name}
+                  <label htmlFor={category.id} className="text-sm cursor-pointer flex items-center">
+                    <span className="mr-2">{category.icon}</span>
+                    {category.name}
                   </label>
                 </div>
               ))}

@@ -44,9 +44,7 @@ export function ArtistCard({ artist, viewMode }: ArtistCardProps) {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="text-lg font-semibold" style={{ color: "var(--primary)" }}>
-                    {artist.priceRange}
-                  </div>
+                  <div className="text-lg font-semibold text-blue-600">{artist.priceRange}</div>
                 </div>
               </div>
 
@@ -70,9 +68,9 @@ export function ArtistCard({ artist, viewMode }: ArtistCardProps) {
                   Languages: {artist.languages.slice(0, 3).join(", ")}
                   {artist.languages.length > 3 && ` +${artist.languages.length - 3} more`}
                 </div>
-                <button className="btn-primary text-sm px-4 py-2 flex items-center">
+                <button className="btn btn-primary text-sm px-4 py-2 flex items-center">
                   <MessageSquare className="h-4 w-4 mr-2" />
-                  Ask for Quote
+                  Get Quote
                 </button>
               </div>
             </div>
@@ -121,12 +119,10 @@ export function ArtistCard({ artist, viewMode }: ArtistCardProps) {
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">{artist.bio}</p>
 
         <div className="flex items-center justify-between">
-          <span className="font-semibold" style={{ color: "var(--primary)" }}>
-            {artist.priceRange}
-          </span>
-          <button className="btn-primary text-sm px-4 py-2 flex items-center">
+          <span className="font-semibold text-blue-600">{artist.priceRange}</span>
+          <button className="btn btn-primary text-sm px-4 py-2 flex items-center">
             <MessageSquare className="h-4 w-4 mr-2" />
-            Ask for Quote
+            Get Quote
           </button>
         </div>
       </div>

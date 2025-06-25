@@ -8,7 +8,7 @@
       "location": "Mumbai, Maharashtra",
       "bio": "Professional vocalist with 8+ years of experience in Bollywood and classical music.",
       "languages": ["Hindi", "English", "Marathi"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/male.jpg",
       "rating": 4.8,
       "experience": "8+ years"
     },
@@ -20,7 +20,7 @@
       "location": "Delhi, NCR",
       "bio": "Electronic music DJ specializing in wedding celebrations and corporate events.",
       "languages": ["Hindi", "English", "Punjabi"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/male.jpg",
       "rating": 4.6,
       "experience": "5+ years"
     },
@@ -32,7 +32,7 @@
       "location": "Bangalore, Karnataka",
       "bio": "Contemporary and classical dance performer with expertise in Bharatanatyam.",
       "languages": ["Hindi", "English", "Kannada", "Tamil"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/female.png",
       "rating": 4.9,
       "experience": "10+ years"
     },
@@ -44,7 +44,7 @@
       "location": "Ahmedabad, Gujarat",
       "bio": "Corporate trainer and motivational speaker with expertise in leadership development.",
       "languages": ["Hindi", "English", "Gujarati"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/male.jpg",
       "rating": 4.7,
       "experience": "12+ years"
     },
@@ -56,7 +56,7 @@
       "location": "Chennai, Tamil Nadu",
       "bio": "Carnatic classical vocalist and playback singer with multiple awards.",
       "languages": ["Tamil", "Hindi", "English", "Telugu"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/female.png",
       "rating": 4.9,
       "experience": "15+ years"
     },
@@ -68,7 +68,7 @@
       "location": "Pune, Maharashtra",
       "bio": "Wedding DJ and event host specializing in Punjabi and Bollywood music.",
       "languages": ["Hindi", "English", "Punjabi", "Marathi"],
-      "image": "/placeholder.svg?height=300&width=300",
+      "image": "/male.jpg",
       "rating": 4.5,
       "experience": "6+ years"
     }

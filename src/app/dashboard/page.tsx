@@ -1,4 +1,4 @@
-import { ManagerDashboard } from "@/components/manager-dashboard"
+import { ManagerDashboard } from "@/components/dashboard/manager-dashboard"
 
 export const metadata = {
   title: "Manager Dashboard - Artistly.com",
@@ -8,14 +8,20 @@ export const metadata = {
 export default function DashboardPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* Hero Header */}
       <div className="bg-white border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Manager Dashboard</h1>
-          <p className="text-gray-600">Manage your artists and track booking requests</p>
+        <div className="container py-12">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Manager Dashboard</h1>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Manage your artists, track booking requests, and monitor your business performance.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Dashboard Content */}
+      <div className="container py-8">
         <ManagerDashboard />
       </div>
     </div>

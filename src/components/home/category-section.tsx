@@ -7,7 +7,7 @@ const categories = [
     icon: "🎤",
     description: "Professional vocalists for all genres",
     count: "150+ Artists",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/singer.webp",
   },
   {
     id: "dancer",
@@ -15,7 +15,7 @@ const categories = [
     icon: "💃",
     description: "Classical, contemporary & folk dancers",
     count: "120+ Artists",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/dance.webp",
   },
   {
     id: "dj",
@@ -23,7 +23,7 @@ const categories = [
     icon: "🎧",
     description: "Wedding & party DJs with latest equipment",
     count: "80+ Artists",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/dj.jpg",
   },
   {
     id: "speaker",
@@ -31,7 +31,7 @@ const categories = [
     icon: "🎙️",
     description: "Motivational & corporate speakers",
     count: "60+ Artists",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/speaker.jpeg",
   },
 ]
 

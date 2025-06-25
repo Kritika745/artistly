@@ -3,14 +3,15 @@ import { Search, Star, Users, Calendar } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="hero-gradient py-20">
+    <section className="hero-gradient py-20 ">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
+
               <h1 className="text-5xl lg:text-5xl font-bold text-gray-900" style={{ lineHeight: "1.2" }}>
                 Book Amazing
-                <span className="block text-blue-600">Performing Artists</span>
+                <span className="block text-blue-600 ">Performing Artists</span>
                 for Your Events
               </h1>
               <p className="text-md text-gray-600" style={{ lineHeight: "1.6" }}>
@@ -21,7 +22,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/artists" style={{ textDecoration: "none" }}>
-                <button className="btn btn-primary text-md flex items-center p-4 mb-2" >
+                <button className="btn btn-primary text-md flex items-center p-4 " >
                   <Search className="w-4 h-4" style={{ marginRight: "8px" }} />
                   Browse Artists
                 </button>
@@ -61,13 +62,13 @@ export function HeroSection() {
           <div style={{ position: "relative" }}>
             <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/placeholder.svg?height=600&width=600"
+                src="/home.jpg"
                 alt="Performing artists on stage"
                 className="w-full h-full object-cover"
               />
             </div>
             <div
-              className="bg-white rounded-xl shadow-lg p-4"
+              className="bg-white rounded-xl shadow-lg p-4 "
               style={{
                 position: "absolute",
                 bottom: "-24px",

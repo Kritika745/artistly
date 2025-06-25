@@ -1,8 +1,8 @@
-import { HeroSection } from "@/components/hero-section"
-import { CategorySection } from "@/components/category-section"
-import { FeaturedArtists } from "@/components/featured-artists"
-import { HowItWorks } from "@/components/how-it-works"
-import { CTASection } from "@/components/cta-section"
+import { HeroSection } from "@/components/home/hero-section"
+import { CategorySection } from "@/components/home/category-section"
+import { FeaturedArtists } from "@/components/home/featured-artists"
+import { HowItWorks } from "@/components/home/how-it-works"
+import { CTASection } from "@/components/home/cta-section"
 
 export default function HomePage() {
   return (
